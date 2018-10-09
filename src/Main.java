@@ -16,13 +16,13 @@ public class Main {
         array = set.getB_array();
         long ans;
         ans = combination.combinationcount(n,r,array);
-        
+
         System.out.println();
         System.out.println("***欢迎使用重集组合计数程序***");
         System.out.println();
         System.out.print("重集B系数为：");
         for(int item:array){
-            System.out.print(item + " ");
+            System.out.print(item-1 + " ");
         }
         System.out.println();
         System.out.println("r-组合系数为： "+ r);
